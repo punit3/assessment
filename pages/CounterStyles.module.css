@@ -1,0 +1,101 @@
+/* CounterStyles.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0;
+}
+
+.title {
+  margin: 0;
+  padding-top: 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-family: sans-serif;
+  color: grey;
+}
+
+.count {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  width: 160px;
+  background: white;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.btn_add {
+  border: 2px solid green;
+  color: green;
+}
+
+.btn_sub {
+  border: 2px solid red;
+  color: red;
+}
+
+.error {
+  color: red;
+}
+
+.historyContainer {
+  width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 2px;
+}
+
+.historyTitle {
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+
+.historyList {
+  list-style-type: none;
+  padding: 0;
+  flex-grow: 1;
+}
+
+.historyItem {
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mainContainer {
+  display: flex;
+}
+
+
